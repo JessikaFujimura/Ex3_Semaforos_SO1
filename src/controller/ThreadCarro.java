@@ -43,7 +43,7 @@ public class ThreadCarro extends Thread{
 
 	private void volta() {
 		for(int i = 1; i <= 3; i++){
-			int tempo = (int) (Math.random() *1001);
+			int tempo = (int) (Math.random() *1001) + 1;
 			try {
 				sleep(tempo);
 			} catch (InterruptedException e) {
